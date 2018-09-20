@@ -5,6 +5,9 @@
   - kā gāja ar Anaconda instalēšanu?
   - vēl kādi Python jautājumi?
   - par koda redaktoriem
+  
+  Rekomendācija redaktoram: https://code.visualstudio.com/
+  (ja uzstāda caur Anaconda tad Python plugins nāk līdzi bet var likt arī atsevišķi)
 
 ### Python komūna 
 
@@ -16,7 +19,6 @@
     - PyConLT (Lietuva, notiek ilgstoši) - https://www.pycon.lt/2019/
     - PyConEE (04-Oct-2018) - https://pycon.ee/
     - ... Latvijā PyCon pagaidām nav 
-  - Latvijas Python komūna: http://python.lv/pages/about
 
 > [PyCon 2013 recap (Code Like a Girl blog)](http://melitamihaljevic.blogspot.com/2013/03/pycon-2013-recap.html) :
 > 
@@ -66,43 +68,34 @@ piezīme par Virtual environments (skat. pip install un Anaconda saites)
 
 ## Interesants moduļu lietojums (no komandrindas)
 
-# validate and pretty-print JSON files
-#    https://docs.python.org/3/library/json.html#module-json.tool
-python -m json.tool input.json
+validate and pretty-print JSON files
+-  https://docs.python.org/3/library/json.html#module-json.tool
+`python -m json.tool input.json`
 
-# launch simple HTTP server in the current directory
-#    https://docs.python.org/3/library/http.server.html
-python -m http.server 8000
+launch simple HTTP server in the current directory
+- https://docs.python.org/3/library/http.server.html
+`python -m http.server 8000`
 
+### Python funkcijas un klases (atkārtojums)
 
+- Funkcijas piemērs
 
-## Python funkcijas un klases (atkārtojums)
-
-# Funkcijas piemērs
-
-# Klases piemērs
-
-
+- Klases piemērs
 
 ## Kā izskatās Python programmas
 
-# plain script -> funkcijas un klases -> maza, pilnvērtīga programma -> (kas vēl?)
+### plain script -> funkcijas un klases -> maza, pilnvērtīga programma
 
 - plain script bez dziļākas struktūras
-- plain script, kas definē:
+- plain script, kas definē un izmanto:
   - funkcijas
   - klases
-- vienkārša programma (ar "if __name__ == "__main__")
-- kāda moduļa piemērs (?)
+- vienkārša programma
+  - koda beigās `if __name__ == "__main__":`
+- moduļa pirmkoda piemērs
 
+## (tālāk pārejam uz nodarbības IPython notebooks)
 
+### Praktiskais uzdevums
 
-...
-
-
-## Praktiskais uzdevums
-
-(piem., par vārdu biežumu)
-
-
-# (tālāk saites uz nodarbības IPyton notebooks)
+vārdu biežuma skaitīšana
