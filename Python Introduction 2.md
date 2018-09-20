@@ -17,6 +17,9 @@
     - PyConEE (04-Oct-2018) - https://pycon.ee/
     - ... Latvijā PyCon pagaidām nav 
 
+Latvijas Python komūna:
+http://python.lv/pages/about
+
 > [PyCon 2013 recap (Code Like a Girl blog)](http://melitamihaljevic.blogspot.com/2013/03/pycon-2013-recap.html) :
 > 
 > This was my first pyCon and I have to say it was a great experience:
